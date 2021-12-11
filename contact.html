@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kontakt</title>
+
+    <style>
+        label {
+            display: block;
+        }
+        form {
+            margin-top: 30px;
+        }
+        input[type='submit'] {
+            display: block;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Strona kontaktu</h1>
+    <br>
+    <br>
+    <br>
+
+    <div>
+        <img src="https://picsum.photos/300/200" alt="obrazek">
+        <br><br>
+        <span>Write me a message &#128512;</span>
+        <span>Please do not spam me</span>
+
+        <form>
+            <div>
+                <label for="name">First name: </label>
+                <input id='name' type="text" required>
+            </div>
+            <div>
+                <label for="email">Email: </label>
+                <input id='email' type="email" required>
+            </div>
+            <div>
+                <label for="message">Message: </label>
+                <textarea id='message' name="" id="" cols="30" rows="6" required></textarea>
+            </div>
+            <input id='submit-button' type="submit" value='Wyślij'>
+
+        </form>
+
+    </div>
+</body>
+</html>
