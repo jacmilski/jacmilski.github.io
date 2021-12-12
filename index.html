@@ -5,69 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document change</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1 style='font-size: 48px;'>Welcome to my&nbsp;first&nbsp;website</h1>
+        <h1>Welcome to my first website</h1>
         <a href="contact.html">Contact me</a>
-        <br>
     </header>
 
-    <article>
-        <h3>This is my first blog post</h3>
-        <p>This is the <b>content</b> of my first blog post</p>
-        <br>
-    </article>
+    <main id='main-content'>
+        <section id='articles'>
+            <article>
+                <h3>This is my first blog post</h3>
+                <p>This is the <b>content</b> of my first blog post</p>
+            </article>
+        
+            <article>
+                <h3>This is my second blog post</h3>
+                <p>This is the content of my second blog &lt;something&gt; post</p>
+            </article>
+        
+            <article>
+                <h3>This is my third blog post</h3>
+                <p>This is the <mark>content</mark> of my third blog post. <br> Continue the <strong>content</strong> after <i>breaking line</i><sup class='sup-element'>*</sup></p>
+                <small><sup class='sup-element'>*</sup>Another sentence</small>
+            </article>
+        </section>
 
-    <article>
-        <h3>This is my second blog post</h3>
-        <p>This is the content of my second blog &lt;something&gt; post</p>
-        <br> <!-- this tag is used for adding a new line -->
-    </article>
+        <div id='my-skills'>
+            <b style='font-size: 28px; color: maroon'>My skills:</b>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>HTML</td>
+                        <td>5</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>3 :)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
-    <article>
-        <h3>This is <mark>my third</mark> blog post</h3>
-        <p>This is the content of my third blog post. <br> Continue the <strong>content</strong> after <i>breaking line</i><sup>*</sup></p>
-        <small><sup class='sup-element' style='color: red'>*</sup>Another sentence</small>
-    </article>
-
-    <br>
-    <br>
-    <br>
-    <br>
-
-    <div>My skills:
-        <!-- <ul>
-            <li>I know HTML :)</li>
-            <li>I do not know css yet :(</li>
-        </ul> -->
-    <br>
-    <br>
-    <br>
-        <table border="1">
-            <thead>
-                <th span="2">Technology level</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>5</td>
-                </tr>
-                <tr>
-                    <td>CSS</td>
-                    <td>3</td>
-                </tr>
-
-            </tbody>
-        </table>
-    </div>
-    <br>
-    <br>
-    <br>
+    </main>
 
     <footer>
         <div>
-            footer area. &COPY; Me & My Tutor
+            <p>footer area. &COPY; <strong>Me</strong> & My Tutor</p>
         </div>
     </footer>
 

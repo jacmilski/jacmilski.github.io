@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1.3px;
+    /* margin-left: 100px;
+    margin-top: 100px; */
+    /* background-image: url('https://picsum.photos/600/600');
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+table thead {
+    color: blue;
+}
+
+table {
+    text-align: center;
+    line-height: 200%;
+    border-collapse: collapse;
+    border-top: 3px solid maroon;
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px 0;
+}
+
+
+h1 {
+    color: #496bd8;
+    font-weight: 700;
+}
+
+h3 {
+    color: #fc7629;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    line-height: 30px;
+}
+
+p {
+    color: #2a3655;
+    font-weight: bold;
+   /*  text-indent: 30px; */
+}
+
+a {
+    text-decoration: none;
+    font-size: 26px;
+    color: rgb(71, 9, 9);
+    font-weight: bolder;
+}
+
+.sup-element {
+    color: maroon;
+}
+
+
+footer strong {
+    text-decoration: underline double maroon;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(216, 172, 106);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 24px;
+    color: maroon;
+    margin: 0;
+    padding: 20px 0;
+}
+
+mark {
+    border-radius: 5px;
+    padding: 5px 7px;
+    background-color:orange;
+}
+
+article {
+    padding: 20px 0;
+    margin-bottom: 80px;
+}
+
+#main-content {
+    display: flex;
+    background-color:seashell;
+    padding: 30px;
+}
+
+#articles {
+    padding-right: 220px;
+}
+
+#my-skills {
+    padding-left: 100px;
+    align-self: center;
+}
+
+header {
+    display: flex;
+    padding: 20px 30px;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to top right,rgba(255, 255, 0, .9) 0%,rgba(128, 0, 0, .8) 90%);
+}
+
+@media  screen and (min-width: 600px) {
+    footer {
+       position: sticky;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main-content, header {
+        flex-direction: column;
+    }
+}
